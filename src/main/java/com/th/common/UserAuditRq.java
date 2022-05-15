@@ -1,4 +1,4 @@
-package com.th.purchase.payment.dto;
+package com.th.common;
 
 import lombok.Builder;
 import lombok.Data;

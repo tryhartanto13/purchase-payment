@@ -1,5 +1,6 @@
 package com.th.purchase.payment.service;
 
+import com.th.common.UserAuditRq;
 import com.th.purchase.payment.dto.*;
 import com.th.purchase.payment.exception.GeneralException;
 import lombok.extern.slf4j.Slf4j;
@@ -7,7 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
-import java.util.UUID;
 import java.util.concurrent.CompletableFuture;
 
 import static com.th.purchase.payment.dto.constant.PurchaseConstant.ErrorCode.*;
