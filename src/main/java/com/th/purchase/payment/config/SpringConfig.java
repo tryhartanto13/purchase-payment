@@ -11,7 +11,6 @@ import springfox.documentation.spring.web.plugins.Docket;
 
 @Configuration
 public class SpringConfig {
-
     @Bean
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
@@ -21,7 +20,6 @@ public class SpringConfig {
                 .build()
                 .apiInfo(ApiInfo.DEFAULT).enable(true);
     }
-
     @Bean
     public RestTemplate restTemplate() {
         return new RestTemplate();

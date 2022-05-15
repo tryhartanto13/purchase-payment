@@ -21,7 +21,6 @@ public class JMSConfig {
         ActiveMQConnectionFactory activeMQConnectionFactory = new ActiveMQConnectionFactory();
         activeMQConnectionFactory.setBrokerURL(brokerUrl);
         activeMQConnectionFactory.setSendTimeout(1000);
-
         return activeMQConnectionFactory;
     }
 

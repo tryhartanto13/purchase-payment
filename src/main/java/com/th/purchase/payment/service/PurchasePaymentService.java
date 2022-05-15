@@ -30,6 +30,7 @@ public class PurchasePaymentService {
             pay3Rd(transactionRq, transactionRs);
             purchasePayRs = PurchasePayRs.builder().destNo(transactionRq.getDestNo())
                     .refNo(transactionRq.getRefNo())
+                    .destNo(transactionRs.getDestNo())
                     .destName(transactionRs.getDestName())
                     .fee(transactionRs.getFee())
                     .amount(transactionRs.getAmount())
